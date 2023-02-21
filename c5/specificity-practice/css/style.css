@@ -1,0 +1,22 @@
+/* Please Make only Rhino and Zebra Blue */
+/* .top h2{
+
+    color:blue;
+} */
+
+#rhino, #zebra{
+    color:blue;
+}
+
+/* Please Make only Hufflepuff Gold */
+#bestHouse{
+    color:gold;
+}
+/* Please select Duck with the highest level of specificity possible */
+
+html > body > h1#hi + section.top + section.middle + article.areDucksDinosaurs > h2.likesToQuack.fight1Or100{
+    color:lime !important;
+}
+/* we said find me h2 that has the class of likes to quack and the class fight 10 or 100 hat is the immediate child of an article with the class r ducks dinosaurs that is the sibling of section with the class of middle which is the sibling a section with the class of top which is the sibling of the h1 with the id of hi */
+
+/* Please select Rhino with the highest level of specificity possible */
