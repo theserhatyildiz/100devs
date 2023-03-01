@@ -90,6 +90,47 @@ header nav li {
   height: 200px;
 }
 
+.dort * {
+  text-align: center;
+}
+
+.dort img {
+  display: block;
+  margin: 0 auto;
+
+}
+
+.dort span {
+  display: block;
+  text-align: center;
+}
+
+.dort section {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.bes * {
+  text-align: center;
+}
+
+.bes img {
+  display: block;
+  margin: 0 auto;
+}
+
+.bes span {
+  display: block;
+  text-align: center;
+}
+
+.bes section {
+  margin-top: 1000px;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
