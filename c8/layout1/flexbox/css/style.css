@@ -1,0 +1,225 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.one {
+  background: rgb(83	99	119	)
+  
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 40px;
+  padding-left: 30; 
+}
+
+img {
+height: 65px;
+width: 65px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+button {
+  border: none;
+  background: white;
+  padding: 10px 10px;
+  color: rgb(83	99	119	);
+  border-radius: 4px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+/*******************************************/
+.secone h1 {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  color: white;
+  margin-top: 70px; 
+  font-size: 60px;
+  font-family: 'Roboto', sans-serif;
+}
+/*******************************************/
+.sectwo p {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  color: white;
+  margin: 40px; 
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  padding: 0 150px;
+  text-align: center;
+}
+/*******************************************/
+.secthree {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secthree img {
+  
+  height: 50px;
+  width: 50px;
+}
+
+.secthree span {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+/*******************************************/
+.secfour span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 65px ;
+  padding-bottom: 30px;
+  padding-left: 50px;
+}
+/*******************************************/
+.divone h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 150px;
+}
+
+.divone p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding: 0 300px;
+  margin-bottom: 150px;
+}
+/*******************************************/
+.divtwo{
+  background: rgb(211	215	219)	;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding: 100px 100px ;
+}
+
+.divtwo img {
+  height: 180px;
+  width: 300px;
+  padding-bottom: 10px;
+}
+
+.divtwo button {
+  border: 1px solid black;
+  background: rgb(211	215	219);
+  padding: 12px 45px;
+  color: black;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 1px;
+}
+/*******************************************/
+.divthree{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding: 100px 100px ;
+}
+
+.divthree p {
+  padding: 0 300px;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.divthree button {
+  border: 1px solid black;
+  padding: 12px 45px;
+  margin: 20px;
+  color: black;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 1px;
+  
+}
+/*******************************************/
+footer .footerAll{
+  display: flex;
+  justify-content: space-between;
+  background: rgb(18	24	31	);
+  padding: 20px 20px ;
+}
+
+footer img {
+  height: 53px;
+  width: 160px;
+}
+
+.footer1 span{
+  color: rgb(83	99	119	);
+  padding-left: 13px;
+
+}
+
+.footer1 ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  margin-left: 0;
+}
+
+.footer2 {
+  color: white;
+  padding-right: 20px;
+  align-self: center;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
