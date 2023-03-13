@@ -124,7 +124,7 @@ button {
   justify-content: center;
   align-items: center;
   font-family: 'Roboto', sans-serif;
-  margin-top: 150px;
+  margin-top: 130px;
 }
 
 .divone p{
@@ -186,11 +186,87 @@ button {
   
 }
 /*******************************************/
-footer .footerAll{
+footer {
+  background: rgb(18 24 31);
+  padding: 20px;
+  height: 270px;  
+}
+
+.footerAll{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+  
+}
+
+footer img {
+  height: 53px;
+  width: 160px;
+}
+
+/*******************************************/
+
+.footer1 span{
+  color: rgb(83	99	119	);
+  padding-left: 13px;
+
+}
+
+.footer1 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 3px;
+}
+
+.footer1 ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.footer1 ul li a {
+  
+  color: white ;
+  text-decoration: none;
+}
+
+/*******************************************/
+
+.footer2 {
+  color: white;
+}
+
+/*******************************************/
+
+.footerEnd {
   display: flex;
   justify-content: space-between;
-  background: rgb(18	24	31	);
-  padding: 20px 20px ;
+}
+
+.footerEnd p {
+  color: white;
+  padding-left: 10px;
+}
+
+.footerEnd img {
+  height: 65px;
+  width: 65px
+}
+  
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+/* footer {
+  background: rgb(18 24 31);
+  padding: 20px;
+  border-bottom: 2px solid rgb(205, 52, 52);
+  height: 500px;
+}
+
+.footerAll{
+  display: flex;
+  justify-content: space-between;
+  
 }
 
 footer img {
@@ -204,22 +280,36 @@ footer img {
 
 }
 
-.footer1 ul li {
+.footer1 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer1 ul li {
   display: inline-block;
   padding: 10px;
   color: white;
-  margin-left: 0;
 }
 
-.footer2 {
-  color: white;
-  padding-right: 20px;
-  align-self: center;
+.footer2{
+  color:white;
+  padding: 0 50px;
 }
 
+.footer2 h3{
+  padding: 0 400px;
+}
 
+.footer2 p {
+  padding: 0 400px;
+}
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+.footer2 span {
+  padding: 0 400px;
+}
+hr {
+  border: none;
+  border-top: 1px solid white;
+  margin: 20px 0;
+} */
