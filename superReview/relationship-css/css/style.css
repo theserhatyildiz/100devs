@@ -1,0 +1,25 @@
+/*all h2s red*/
+
+
+section > h2  {
+    color:blue;
+}
+
+h2 + h2 {
+
+    color: blue;
+}
+
+section > article h2 {
+
+    color:red;
+}
+
+article h2 {
+
+        color: purple;
+}
+
+.makeRed {
+    color: red;
+}
