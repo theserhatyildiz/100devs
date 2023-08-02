@@ -52,3 +52,10 @@ function partyRed() {
   document.querySelector('body').style.backgroundColor = 'rgba(251,0,6,1)'
   document.querySelector('body').style.color= 'white'
 }
+
+document.getElementById('yellow').onclick = partyYellow
+
+function partyYellow(){
+  document.querySelector('body').style.backgroundColor = 'yellow'
+  document.querySelector('body').style.color = 'black'
+}
