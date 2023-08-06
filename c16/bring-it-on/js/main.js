@@ -1,79 +1,78 @@
 // *Variables*
 // Create a variable and console log the value
 
-let age1 = 25
+let num1 = 10
 
-console.log(age1)
+console.log(num1)
 
 // Create a variable, add 10 to it, and alert the value
 
-let age2 = 25
+let num2 = 10
 
-result= age2 + 10
+num2 = num2 + 10
 
-alert(result)
+alert(num2)
 
 // *Functions*
 // Create a function that subtracts 4 numbers and alerts the difference
 
-function subFourNum(n1, n2, n3, n4){
+function subtractsFourNumbersAndAlerts(n1,n2,n3,n4){
 
-    alert(n1-n2-n3-n4)
+    let subtracts = n1-n2-n3-n4
+
+    alert(subtracts)
 }
 
-subFourNum(50, 5, 5, 1)
+subtractsFourNumbersAndAlerts(10,5,3,2)
 
 // Create a function that divides one number by another and returns the remainder
 
-function divideOneNumAndReturn(num1, num2) {
+function dividesOneByAnotherAndReturns (n1,n2) {
 
-    return num1 % num2
+    let divide = n1/n2
+
+    return divide
 
 }
 
-console.log(divideOneNumAndReturn(5,2))
+let x = dividesOneByAnotherAndReturns(2,1)
+
+alert(x)
 
 // *Conditionals*
 // Create a function that adds two numbers and if the sum is greater than 50 alert Jumanji
 
-function addTwoNumbers (z1,z2){
+function addTwoNumAndIf (n1,n2) {
 
-    let sum = z1 + z2
-
-    if( sum > 50 ){
-
-        alert('Jumanji')
+    if(n1+n2>50){
+        alert('jumanji')
     }
 }
 
-addTwoNumbers(26,30)
-
+addTwoNumAndIf (25, 26)
 // Create a function that multiplys three numbers and if the product is divisible by 3 alert ZEBRA
 
-function multiplysThreeNum(t1, t2, t3){
+function multiplysThreeNumAndIfs(n1,n2,n3){
 
-    let multi = t1 * t2 * t3
+    let product = n1*n2*n3 
 
-    if( multi % 3 === 0){
 
-        alert("zebra")
-    }
 
+if (product % 3 === 0){
+    alert('zebra')
+}
 }
 
-multiplysThreeNum(3,3,3)
+multiplysThreeNumAndIfs(3,3,3)
 
 //*Loops*
 //Create a function that takes in a word and a number. Console log the word x times where x was the number passed in
 
-function logWordXTimes(word, num){
+function takeAWordAndNum (word, number) {
 
-    for( let i = 1; i<= num; i++){
-
+    for(let i=1; i<= number; i++ ){
         console.log(word)
-
     }
-
 }
 
-logWordXTimes('wonderful', 10)
+takeAWordAndNum('wonderful life', 21)
